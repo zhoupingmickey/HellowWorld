@@ -23,7 +23,11 @@ namespace TestGithub
 
         private void button2_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Hello World Again!");
+            string str = txtMsg.Text.Trim();
+            if (!string.IsNullOrEmpty(str))
+            {
+                MessageBox.Show(str);
+            }
         }
     }
 }
