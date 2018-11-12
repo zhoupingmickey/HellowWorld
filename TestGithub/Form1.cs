@@ -27,6 +27,9 @@ namespace TestGithub
             if (!string.IsNullOrEmpty(str))
             {
                 MessageBox.Show(str);
+
+
+
             }
         }
     }
